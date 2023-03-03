@@ -1,0 +1,22 @@
+/*
+ * TIMER0_config.h
+ *
+ *  Created on: Feb 23, 2022
+ *      Author: Ahmed Boshtok
+ */
+
+#ifndef TIMER0_CONFIG_H_
+#define TIMER0_CONFIG_H_
+
+
+#define SELECT_WAVE_GENERATION_MODE		TIMER0_OVF_MODE
+
+#define SELECT_COMPARE_OUTPUT_MODE		TIMER0_OVF_MODE
+
+#define SELECT_CLOCK_SOURCE				TIMER0_PRESCALER_64
+
+#define PRESCALED_CLOCK_SOURCE			64
+
+#define SELECT_TIMER_FREQ				(16000UL)
+
+#endif /* TIMER0_CONFIG_H_ */

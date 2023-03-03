@@ -1,0 +1,23 @@
+/*
+ * Stepper_config.h
+ *
+ *  Created on: ???/???/????
+ *      Author: abosh
+ */
+
+#ifndef HALL_STEPPER_MOTOR_STEPPER_CONFIG_H_
+#define HALL_STEPPER_MOTOR_STEPPER_CONFIG_H_
+
+//#define STEPPER_PORT	STEPPER_PORTA
+//#define STEPPER_PORT	STEPPER_PORTB
+//#define STEPPER_PORT	STEPPER_PORTC
+#define STEPPER_PORT	STEPPER_PORTD
+
+#define STEPPER_PINA		STEPPER_PIN0
+#define STEPPER_PINB		STEPPER_PIN1
+#define STEPPER_PINC		STEPPER_PIN2
+#define STEPPER_PIND		STEPPER_PIN3
+
+#define DELAY				100
+
+#endif /* HALL_STEPPER_MOTOR_STEPPER_CONFIG_H_ */
